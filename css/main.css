@@ -1,0 +1,644 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+    font-family: "Ubuntu";
+    src: url(fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: "UbuntuRegular";
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: "UbuntuMedium";
+    src: url(fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: "UbuntuBold";
+    src: url(fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: "Exo";
+    src: url(fonts/Exo-Light.ttf);
+}
+@font-face {
+    font-family: "ExoRegular";
+    src: url(fonts/Exo-Regular.ttf);
+}
+@font-face {
+    font-family: "ExoMedium";
+    src: url(fonts/Exo-Medium.ttf);
+}
+@font-face {
+    font-family: "ExoBold";
+    src: url(fonts/Exo-Bold.ttf);
+}
+body{
+    font-family: "Ubuntu";
+    margin: 0px;
+    padding: 0px;
+}
+.padd {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.container-grey {
+    background-color: #4c6677;
+    min-height: 600px;
+}
+.sections-header {
+    text-align: center;
+    font-family: "Exo";
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #394e5b;
+    letter-spacing: 15px;
+    position: relative;
+}
+/*--------------------Header----------------*/           
+.main-nav-bar {
+    line-height: 90px;
+    background-color: #394e5b;
+    border-bottom: 3px solid #668294;
+}
+.logo {
+    float: left;
+    width: 350px;
+    padding-top: 15px;
+}
+.logo-text {
+    font-family: "Exo";
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    margin-left: 5px;
+}
+.navbar {
+    float: right;
+}
+.navbar li {
+      display: inline;
+} 
+.navbar a {
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 18px;
+    font-family: "UbuntuMedium";
+    color: #668294;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    color: #d16262;
+    cursor: pointer;
+}
+/*------------------End Header--------------*/
+
+/*------------------Section-1---------------*/
+
+.slider-text-box {
+    text-align: center;
+    padding-top: 180px;
+}
+.slider-title {
+    font-family: "ExoMedium";
+    text-transform: uppercase;
+    font-size: 52px;
+    color: #ffffff;
+    letter-spacing: 18px;
+}
+.slider-title-2 {
+    font-family: "ExoMedium";
+    letter-spacing: 10px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.slider-button {
+    width: 250px;
+    height: 62px;
+    border-radius: 8px;
+    border-color: #d16262;
+    font-family: "UbuntuMedium";
+    color: #FFFFFF;
+    background-color: #d16262;
+    margin-top: 40px;
+}
+/*----------------End Section-1-------------*/
+
+/*------------------Section-2---------------*/
+
+.container-grey-2 {
+    background-color: #e9edef;
+    border-top: 3px solid #ffffff
+}
+.header-underline {
+    display: block;
+    width: 185px;
+    height: 2px;
+    background-color: #919da5; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+.sections-header h4 {
+    text-transform: none;
+    letter-spacing: 7px;
+    font-size: 20px;
+}
+.articles-box {
+    padding-left: 275px;
+    margin-top: 88px;
+    padding-bottom: 40px;
+}
+.article-1 {
+    margin-left: 40px;
+    float: left;
+    position: relative;
+    padding: 20px 50px  40px 50px; 
+    border: 1px solid #919da5;
+    width: 190px;
+    text-align: center;
+}
+.article-1 h4 {
+    font-family: "ExoMedium";
+    font-size: 18px;
+    color: #d16262;
+    text-transform: uppercase;
+}
+.article-1 p {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    color: #4c6677;
+}
+.article-1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.article-1 img {
+    margin-top: -75px;
+    border-left: 20px solid #e9edef;
+    border-right: 20px solid #e9edef;
+    background-color: #e9edef;
+}
+}
+/*----------------End Section-2--------------*/
+
+/*------------------Section-3----------------*/
+
+.container-white {
+    background-color: #FFFFFF;
+    border-top: 1px solid #ced5d9;
+}
+.portfolio-projects-button {
+    background-image: url(../img/all-button.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 23px;
+}
+.portfolio-projects-button:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+.portfolio-projects-text {
+    text-decoration: none;
+    text-transform: none;
+    font-size: 18px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: #394e5b;
+    letter-spacing: normal;
+}
+.portfolio-box {
+    margin: 40px 0 40px 0;
+    /* text-align: center; */
+    margin-right: auto;
+    margin-left: auto;
+    width: 63%;
+}
+.first {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.last {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.portfolio-article-box {
+   margin: 40px 20px 0px 20px;
+   float: left;
+}
+.portfolio-button-box {
+    width: 250px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+}
+.portfolio-button {
+    width: 250px;
+    height: 62px;
+    border-radius: 8px;
+    border-color: #d16262;
+    font-family: "UbuntuMedium";
+    color: #FFFFFF;
+    background-color: #d16262;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----------------End Section-3--------------*/
+
+/*------------------Section-4----------------*/
+
+.container-gray-3 {
+    background: #394e5b;
+    border-top: 1px solid #222f37;
+}
+.white {
+    color: #FFFFFF;
+}
+.team-box {
+    width: 61%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.team-image-box {
+    margin-right: 13px;
+    float: left;
+}
+.team-image-box img {
+    overflow: hidden;
+}
+.team-image-title {
+    width: 220px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-family: "ExoBold";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3a4e5b;
+}
+.team-second-title {
+    color: #d16262;
+    text-transform: none;
+}
+.team-image-box:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+/*----------------End Section-4--------------*/
+
+/*------------------Section-5----------------*/
+.contact-form-box {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#contact-form {
+    font-family: "Exo";
+    font-size: 16px;
+    color: #6e8da1;
+}
+.contact-input-box {
+    width: 46%;
+    height: 61px;
+    border: 1px solid #b6c6d0;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contact-area-box {
+    width: 98.5%;
+    min-height: 153px;
+    border: 1px solid #b6c6d0;
+    padding-top: 10px;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.second-box {
+    margin-left: 45px;
+}
+/*----------------End Section-5--------------*/
+
+/*--------------------Footer-----------------*/
+#footer-box {
+    min-height: 112px;
+    border-top: 1px solid #cdd8dd;
+}
+.copyright-box {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+.copyright-title-1 {
+    font-family: "UbuntuMedium";
+    font-size: 16px;
+    color: #d16262;
+    margin-right: 8px;
+}
+.copyright-title-2 {
+    font-family: "Ubuntu";
+    font-size: 16px;
+}
+.social-icon-box {
+    width: 50%;
+    float: left;
+    padding-top: 35px;
+    text-align: center;
+}
+.social-icon-box i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.to_top{
+   position: fixed;
+   bottom: 0px;
+   right: 50px;
+
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

@@ -1,0 +1,7 @@
+font logo- SakkaMajalla
+Slider title - Exo Medium
+Slider text - Exo Light
+
+Titles- Exo Medium
+
+Paragraps - Ubuntu light
